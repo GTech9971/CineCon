@@ -30,6 +30,7 @@
 		5E5182762BE90DEE007C44AC /* CinemaDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5182752BE90DEE007C44AC /* CinemaDuration.swift */; };
 		5E5182782BE90DF9007C44AC /* CinemaSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5182772BE90DF9007C44AC /* CinemaSeries.swift */; };
 		5E51827A2BE90E3F007C44AC /* Cinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5182792BE90E3F007C44AC /* Cinema.swift */; };
+		5EB5E3662BEA5ADE003F065C /* CinemaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5E3652BEA5ADE003F065C /* CinemaInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		5E5182752BE90DEE007C44AC /* CinemaDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaDuration.swift; sourceTree = "<group>"; };
 		5E5182772BE90DF9007C44AC /* CinemaSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaSeries.swift; sourceTree = "<group>"; };
 		5E5182792BE90E3F007C44AC /* Cinema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinema.swift; sourceTree = "<group>"; };
+		5EB5E3652BEA5ADE003F065C /* CinemaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				5E5182752BE90DEE007C44AC /* CinemaDuration.swift */,
 				5E5182772BE90DF9007C44AC /* CinemaSeries.swift */,
 				5E5182792BE90E3F007C44AC /* Cinema.swift */,
+				5EB5E3652BEA5ADE003F065C /* CinemaInfo.swift */,
 			);
 			path = Cinemas;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				5E5182682BE90671007C44AC /* IsoSource.swift in Sources */,
 				5E5182662BE90586007C44AC /* Source.swift in Sources */,
 				5E5182762BE90DEE007C44AC /* CinemaDuration.swift in Sources */,
+				5EB5E3662BEA5ADE003F065C /* CinemaInfo.swift in Sources */,
 				5E51826E2BE90910007C44AC /* VideoResolution.swift in Sources */,
 				5E51826A2BE907FB007C44AC /* FolderSource.swift in Sources */,
 				5E5182532BE90189007C44AC /* FileLocation.swift in Sources */,
@@ -463,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7R4Y9AC5RD;
+				DEVELOPMENT_TEAM = K76HM8C645;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -506,7 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7R4Y9AC5RD;
+				DEVELOPMENT_TEAM = K76HM8C645;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -544,6 +548,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7R4Y9AC5RD;
@@ -566,6 +571,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7R4Y9AC5RD;

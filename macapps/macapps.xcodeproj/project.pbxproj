@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7C36262BEA5FB700F86D20 /* macappsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36252BEA5FB700F86D20 /* macappsApp.swift */; };
+		5E7C36282BEA5FB700F86D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36272BEA5FB700F86D20 /* ContentView.swift */; };
+		5E7C362A2BEA5FB800F86D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7C36292BEA5FB800F86D20 /* Assets.xcassets */; };
+		5E7C362D2BEA5FB800F86D20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7C362C2BEA5FB800F86D20 /* Preview Assets.xcassets */; };
+		5E7C36382BEA5FB800F86D20 /* macappsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36372BEA5FB800F86D20 /* macappsTests.swift */; };
+		5E7C36422BEA5FB800F86D20 /* macappsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36412BEA5FB800F86D20 /* macappsUITests.swift */; };
+		5E7C36442BEA5FB800F86D20 /* macappsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36432BEA5FB800F86D20 /* macappsUITestsLaunchTests.swift */; };
+		5E7C36522BEA5FFB00F86D20 /* CinemaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36512BEA5FFB00F86D20 /* CinemaCard.swift */; };
+		5E7C36552BEA60C700F86D20 /* HDVideoBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36542BEA60C700F86D20 /* HDVideoBadge.swift */; };
+		5E7C36582BEA615E00F86D20 /* Original4KBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36572BEA615E00F86D20 /* Original4KBadge.swift */; };
+		5E7C365A2BEA61B900F86D20 /* OriginalBluRayBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36592BEA61B900F86D20 /* OriginalBluRayBadge.swift */; };
+		5E7C365C2BEA61DD00F86D20 /* OriginalDVDBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C365B2BEA61DD00F86D20 /* OriginalDVDBadge.swift */; };
+		5E7C36602BEA636E00F86D20 /* FHDVideoBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C365F2BEA636E00F86D20 /* FHDVideoBadge.swift */; };
+		5E7C36632BEA66AF00F86D20 /* FolderSourceBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36622BEA66AF00F86D20 /* FolderSourceBadge.swift */; };
+		5E7C36652BEA66D700F86D20 /* IsoSourceBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C36642BEA66D700F86D20 /* IsoSourceBadge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E7C36342BEA5FB800F86D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7C361A2BEA5FB700F86D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7C36212BEA5FB700F86D20;
+			remoteInfo = macapps;
+		};
+		5E7C363E2BEA5FB800F86D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7C361A2BEA5FB700F86D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7C36212BEA5FB700F86D20;
+			remoteInfo = macapps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E7C36222BEA5FB700F86D20 /* macapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7C36252BEA5FB700F86D20 /* macappsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macappsApp.swift; sourceTree = "<group>"; };
+		5E7C36272BEA5FB700F86D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E7C36292BEA5FB800F86D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E7C362C2BEA5FB800F86D20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E7C362E2BEA5FB800F86D20 /* macapps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macapps.entitlements; sourceTree = "<group>"; };
+		5E7C36332BEA5FB800F86D20 /* macappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macappsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7C36372BEA5FB800F86D20 /* macappsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macappsTests.swift; sourceTree = "<group>"; };
+		5E7C363D2BEA5FB800F86D20 /* macappsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macappsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7C36412BEA5FB800F86D20 /* macappsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macappsUITests.swift; sourceTree = "<group>"; };
+		5E7C36432BEA5FB800F86D20 /* macappsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macappsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E7C36512BEA5FFB00F86D20 /* CinemaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaCard.swift; sourceTree = "<group>"; };
+		5E7C36542BEA60C700F86D20 /* HDVideoBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDVideoBadge.swift; sourceTree = "<group>"; };
+		5E7C36572BEA615E00F86D20 /* Original4KBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original4KBadge.swift; sourceTree = "<group>"; };
+		5E7C36592BEA61B900F86D20 /* OriginalBluRayBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalBluRayBadge.swift; sourceTree = "<group>"; };
+		5E7C365B2BEA61DD00F86D20 /* OriginalDVDBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalDVDBadge.swift; sourceTree = "<group>"; };
+		5E7C365F2BEA636E00F86D20 /* FHDVideoBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDVideoBadge.swift; sourceTree = "<group>"; };
+		5E7C36622BEA66AF00F86D20 /* FolderSourceBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSourceBadge.swift; sourceTree = "<group>"; };
+		5E7C36642BEA66D700F86D20 /* IsoSourceBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsoSourceBadge.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E7C361F2BEA5FB700F86D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7C36302BEA5FB800F86D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7C363A2BEA5FB800F86D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E7C36192BEA5FB700F86D20 = {
+			isa = PBXGroup;
+			children = (
+				5E7C36242BEA5FB700F86D20 /* macapps */,
+				5E7C36362BEA5FB800F86D20 /* macappsTests */,
+				5E7C36402BEA5FB800F86D20 /* macappsUITests */,
+				5E7C36232BEA5FB700F86D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E7C36232BEA5FB700F86D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36222BEA5FB700F86D20 /* macapps.app */,
+				5E7C36332BEA5FB800F86D20 /* macappsTests.xctest */,
+				5E7C363D2BEA5FB800F86D20 /* macappsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E7C36242BEA5FB700F86D20 /* macapps */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36612BEA66A300F86D20 /* Sources */,
+				5E7C36562BEA614700F86D20 /* Disks */,
+				5E7C36532BEA60BD00F86D20 /* Videos */,
+				5E7C36502BEA5FE900F86D20 /* Cinemas */,
+				5E7C36252BEA5FB700F86D20 /* macappsApp.swift */,
+				5E7C36272BEA5FB700F86D20 /* ContentView.swift */,
+				5E7C36292BEA5FB800F86D20 /* Assets.xcassets */,
+				5E7C362E2BEA5FB800F86D20 /* macapps.entitlements */,
+				5E7C362B2BEA5FB800F86D20 /* Preview Content */,
+			);
+			path = macapps;
+			sourceTree = "<group>";
+		};
+		5E7C362B2BEA5FB800F86D20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C362C2BEA5FB800F86D20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E7C36362BEA5FB800F86D20 /* macappsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36372BEA5FB800F86D20 /* macappsTests.swift */,
+			);
+			path = macappsTests;
+			sourceTree = "<group>";
+		};
+		5E7C36402BEA5FB800F86D20 /* macappsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36412BEA5FB800F86D20 /* macappsUITests.swift */,
+				5E7C36432BEA5FB800F86D20 /* macappsUITestsLaunchTests.swift */,
+			);
+			path = macappsUITests;
+			sourceTree = "<group>";
+		};
+		5E7C36502BEA5FE900F86D20 /* Cinemas */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36512BEA5FFB00F86D20 /* CinemaCard.swift */,
+			);
+			path = Cinemas;
+			sourceTree = "<group>";
+		};
+		5E7C36532BEA60BD00F86D20 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36542BEA60C700F86D20 /* HDVideoBadge.swift */,
+				5E7C365F2BEA636E00F86D20 /* FHDVideoBadge.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		5E7C36562BEA614700F86D20 /* Disks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36572BEA615E00F86D20 /* Original4KBadge.swift */,
+				5E7C36592BEA61B900F86D20 /* OriginalBluRayBadge.swift */,
+				5E7C365B2BEA61DD00F86D20 /* OriginalDVDBadge.swift */,
+			);
+			path = Disks;
+			sourceTree = "<group>";
+		};
+		5E7C36612BEA66A300F86D20 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C36622BEA66AF00F86D20 /* FolderSourceBadge.swift */,
+				5E7C36642BEA66D700F86D20 /* IsoSourceBadge.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E7C36212BEA5FB700F86D20 /* macapps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7C36472BEA5FB800F86D20 /* Build configuration list for PBXNativeTarget "macapps" */;
+			buildPhases = (
+				5E7C361E2BEA5FB700F86D20 /* Sources */,
+				5E7C361F2BEA5FB700F86D20 /* Frameworks */,
+				5E7C36202BEA5FB700F86D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macapps;
+			productName = macapps;
+			productReference = 5E7C36222BEA5FB700F86D20 /* macapps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E7C36322BEA5FB800F86D20 /* macappsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7C364A2BEA5FB800F86D20 /* Build configuration list for PBXNativeTarget "macappsTests" */;
+			buildPhases = (
+				5E7C362F2BEA5FB800F86D20 /* Sources */,
+				5E7C36302BEA5FB800F86D20 /* Frameworks */,
+				5E7C36312BEA5FB800F86D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7C36352BEA5FB800F86D20 /* PBXTargetDependency */,
+			);
+			name = macappsTests;
+			productName = macappsTests;
+			productReference = 5E7C36332BEA5FB800F86D20 /* macappsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E7C363C2BEA5FB800F86D20 /* macappsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7C364D2BEA5FB800F86D20 /* Build configuration list for PBXNativeTarget "macappsUITests" */;
+			buildPhases = (
+				5E7C36392BEA5FB800F86D20 /* Sources */,
+				5E7C363A2BEA5FB800F86D20 /* Frameworks */,
+				5E7C363B2BEA5FB800F86D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7C363F2BEA5FB800F86D20 /* PBXTargetDependency */,
+			);
+			name = macappsUITests;
+			productName = macappsUITests;
+			productReference = 5E7C363D2BEA5FB800F86D20 /* macappsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E7C361A2BEA5FB700F86D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5E7C36212BEA5FB700F86D20 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5E7C36322BEA5FB800F86D20 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5E7C36212BEA5FB700F86D20;
+					};
+					5E7C363C2BEA5FB800F86D20 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5E7C36212BEA5FB700F86D20;
+					};
+				};
+			};
+			buildConfigurationList = 5E7C361D2BEA5FB700F86D20 /* Build configuration list for PBXProject "macapps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E7C36192BEA5FB700F86D20;
+			productRefGroup = 5E7C36232BEA5FB700F86D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E7C36212BEA5FB700F86D20 /* macapps */,
+				5E7C36322BEA5FB800F86D20 /* macappsTests */,
+				5E7C363C2BEA5FB800F86D20 /* macappsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E7C36202BEA5FB700F86D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7C362D2BEA5FB800F86D20 /* Preview Assets.xcassets in Resources */,
+				5E7C362A2BEA5FB800F86D20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7C36312BEA5FB800F86D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7C363B2BEA5FB800F86D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E7C361E2BEA5FB700F86D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7C36522BEA5FFB00F86D20 /* CinemaCard.swift in Sources */,
+				5E7C365C2BEA61DD00F86D20 /* OriginalDVDBadge.swift in Sources */,
+				5E7C36652BEA66D700F86D20 /* IsoSourceBadge.swift in Sources */,
+				5E7C36602BEA636E00F86D20 /* FHDVideoBadge.swift in Sources */,
+				5E7C36552BEA60C700F86D20 /* HDVideoBadge.swift in Sources */,
+				5E7C36282BEA5FB700F86D20 /* ContentView.swift in Sources */,
+				5E7C365A2BEA61B900F86D20 /* OriginalBluRayBadge.swift in Sources */,
+				5E7C36582BEA615E00F86D20 /* Original4KBadge.swift in Sources */,
+				5E7C36632BEA66AF00F86D20 /* FolderSourceBadge.swift in Sources */,
+				5E7C36262BEA5FB700F86D20 /* macappsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7C362F2BEA5FB800F86D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7C36382BEA5FB800F86D20 /* macappsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7C36392BEA5FB800F86D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7C36442BEA5FB800F86D20 /* macappsUITestsLaunchTests.swift in Sources */,
+				5E7C36422BEA5FB800F86D20 /* macappsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E7C36352BEA5FB800F86D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7C36212BEA5FB700F86D20 /* macapps */;
+			targetProxy = 5E7C36342BEA5FB800F86D20 /* PBXContainerItemProxy */;
+		};
+		5E7C363F2BEA5FB800F86D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7C36212BEA5FB700F86D20 /* macapps */;
+			targetProxy = 5E7C363E2BEA5FB800F86D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E7C36452BEA5FB800F86D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E7C36462BEA5FB800F86D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5E7C36482BEA5FB800F86D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macapps/macapps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macapps/Preview Content\"";
+				DEVELOPMENT_TEAM = K76HM8C645;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.nukomabo.macapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E7C36492BEA5FB800F86D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macapps/macapps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macapps/Preview Content\"";
+				DEVELOPMENT_TEAM = K76HM8C645;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.nukomabo.macapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E7C364B2BEA5FB800F86D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K76HM8C645;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.nukomabo.macappsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macapps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macapps";
+			};
+			name = Debug;
+		};
+		5E7C364C2BEA5FB800F86D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K76HM8C645;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.nukomabo.macappsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macapps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macapps";
+			};
+			name = Release;
+		};
+		5E7C364E2BEA5FB800F86D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K76HM8C645;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.nukomabo.macappsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macapps;
+			};
+			name = Debug;
+		};
+		5E7C364F2BEA5FB800F86D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K76HM8C645;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.nukomabo.macappsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macapps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E7C361D2BEA5FB700F86D20 /* Build configuration list for PBXProject "macapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7C36452BEA5FB800F86D20 /* Debug */,
+				5E7C36462BEA5FB800F86D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7C36472BEA5FB800F86D20 /* Build configuration list for PBXNativeTarget "macapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7C36482BEA5FB800F86D20 /* Debug */,
+				5E7C36492BEA5FB800F86D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7C364A2BEA5FB800F86D20 /* Build configuration list for PBXNativeTarget "macappsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7C364B2BEA5FB800F86D20 /* Debug */,
+				5E7C364C2BEA5FB800F86D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7C364D2BEA5FB800F86D20 /* Build configuration list for PBXNativeTarget "macappsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7C364E2BEA5FB800F86D20 /* Debug */,
+				5E7C364F2BEA5FB800F86D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E7C361A2BEA5FB700F86D20 /* Project object */;
+}
